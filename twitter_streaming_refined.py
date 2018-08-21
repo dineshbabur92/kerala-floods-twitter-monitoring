@@ -10,7 +10,7 @@
 
 from elasticsearch import Elasticsearch
 
-es = Elasticsearch("http://localhost:9200", http_auth=("elastic", "Floods2018"))
+es = Elasticsearch("http://localhost:9200", http_auth=("", ""))
 
 
 # In[8]:
@@ -126,8 +126,6 @@ INDEX_NAME = 'kerala_floods_tweets_stream_refined'
 import tweepy
 import json
 
-
-# Authentication details. To  obtain these visit dev.twitter.com - Application under Selva's ID
 consumer_key = ""
 consumer_secret = ""
 access_token = ""
@@ -197,13 +195,13 @@ if __name__ == '__main__':
                 stream.filter(track=[
                     # common
                     # "kerala",
-					"kerala flood",
-					"kerala sos",
-					"kerala rain",
-					"kerala rescue",
-					"kerala relief",
-					"kerala help",
-					"kerala donation",
+                    "kerala flood",
+                    "kerala sos",
+                    "kerala rain",
+                    "kerala rescue",
+                    "kerala relief",
+                    "kerala help",
+                    "kerala donation",
                     "keralafloods",
                     "keralaflood",
                     "keralafloodsrelief",
@@ -257,10 +255,10 @@ if __name__ == '__main__':
                     "kerala infection",
                     "kerala dermatitis",
                     "kerala conjunctivitis",
-					"kerala fatigue",
-					"kerala rash",
-					"kerala sore throat",
-					"kerala hay fever"
+                    "kerala fatigue",
+                    "kerala rash",
+                    "kerala sore throat",
+                    "kerala hay fever"
                 ]) #Enter keyword(s)
             except Exception as e:
                 print("error ", e)
