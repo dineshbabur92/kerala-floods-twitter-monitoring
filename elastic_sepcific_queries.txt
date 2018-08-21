@@ -1,0 +1,22 @@
+(typhoid) OR (cholera) OR (chikungunya) OR (leptospirosis) OR (hepatitis AND A) OR (malaria) OR (dengue) OR (yellow AND fever) OR (west AND nile AND Fever) OR (gastrointestinal AND infection) OR (tuberculosis) OR (hypothermia)
+
+(alappuzha) OR (ernakulam) OR (idukki) OR (kannur) OR (kasaragod) OR (kollam) OR (kottayam) OR (kozhikode) OR (malappuram) OR (palakkad) OR (pathanamthitta) OR (thiruvananthapuram) OR (thrissur) OR (wayanad) OR (cochin) OR (sabrimala) OR (pambamananthavady) OR (vythiri) OR (malappuram) OR (malabar) OR (chengannur) OR (alleppey)
+
+(chills)
+ OR (cough)
+ OR (fever)
+ OR (headache)
+ OR (muscle AND pain)
+ OR (nausea)
+ OR (vomiting)
+ OR (diarrhea)
+ OR (rashes)
+ OR (infection)
+ OR (dermatitis)
+ OR (conjunctivitis)
+ OR (fatigue)
+ OR (rash)
+ OR (sore AND throat)
+ OR (hay AND fever)
+ 
+alappuzha|ernakulam|idukki|kannur|kasaragod|kollam|kottayam|kozhikode|malappuram|palakkad|pathanamthitta|thiruvananthapuram|thrissur|wayanad|cochin|sabrimala|pambamananthavady |vythiri |malappuram |malabar|chengannur|alleppey
